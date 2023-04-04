@@ -17,3 +17,4 @@ jobs:
         run : echo "${{ steps.get_square.outputs.num_squared }}"
       - name : Install Dependencies
         run : pip install -r requirements.txt
+        shell : bash
